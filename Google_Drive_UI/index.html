@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Drive - Google Drive</title>
+
+    <!-- Bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+
+    <!-- Navbar -->
+     
+    <nav class="navbar navbar-expand-lg bg-body-light bg-light p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand text-secondary" href="#">
+                <img src="logo.png" alt="Logo" width="60" height="40" class="d-inline-block align-text-top">
+                Drive
+            </a>
+
+            <div class="search-wrapper">
+              <i class="material-icons">search</i>
+              <input type="search" name="Search" placeholder="Search in Drive"/>
+            </div>
+
+              <div class="d-flex px-5">
+                <a href="#!"><i class="mx-3 my-3 material-icons grey-text text-darken-1 text-secondary">apps</i></a>
+                <a href="#!"><i class="mx-3 my-3 material-icons grey-text text-darken-1 text-secondary">notifications</i></a>
+                <a href="#!"><img src="myphoto.jpg" alt="profile pic" class="rounded-circle m-2" width="50" height="35"/></a>
+            </div>
+        </div>
+      </nav>
+
+      <!-- Navbar End -->
+
+      <!-- Side Nav -->
+
+      <ul class="side-nav fixed floating transparent z-depth-0 bg-light">
+      
+        <button type="button" class="rounded-pill btn btn-light bg-white btn-lg text-center mx-5 mb-3 p-3 shadow">New</button>
+
+        <li class="active">
+          <a href="#"
+            ><i class="material-icons blue-text text-darken-1">dashboard</i>My
+            Drive</a
+          >
+        </li>
+        <li>
+          <a href="#"><i class="material-icons">devices</i>Computers</a>
+        </li>
+        <li>
+          <a href="#"><i class="material-icons">people</i>Shared with me</a>
+        </li>
+        <li>
+          <a href="#"><i class="material-icons">access_time</i>Recent</a>
+        </li>
+        <li>
+          <a href="#"><i class="material-icons">star</i>Starred</a>
+        </li>
+        <li>
+          <a href="#"><i class="material-icons">delete</i>Trash</a>
+        </li>
+        <hr/>
+        <li>
+          <a href="#"><i class="material-icons">cloud</i>Storage (84% full)</a>
+        </li>
+      </ul>
+
+      <!-- Side nav end -->
+
+      <!-- Main -->
+
+      <div class="main p-0">
+        
+        <button type="button" class="rounded-pill btn btn-light bg-white btn-lg text-center mx-2 mb-3 p-3">My Drive</button>
+
+        <div class="container-fluid">
+          <p class="subheader">Folders</p>
+          <div class="card-panel folder">
+            <i class="material-icons left p-3">folder</i>Project
+          </div>
+          <div class="card-panel folder">
+            <i class="material-icons left p-3">folder</i>Forms
+          </div>
+          <div class="card-panel folder">
+            <i class="material-icons left p-3">folder</i>Pictures
+          </div>
+        </div>
+      </div>
+
+      <!-- Main end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
